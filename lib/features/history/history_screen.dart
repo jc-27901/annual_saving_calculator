@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
 
-import 'savings/bloc/savings_cubit.dart';
+import '../savings/bloc/savings_cubit.dart';
 
 class HistoryScreen extends StatelessWidget {
   const HistoryScreen({super.key});

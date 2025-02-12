@@ -72,4 +72,14 @@ class SavingsCubit extends Cubit<SavingsState> {
       withdrawals: withdrawals,
     ));
   }
+
+  Future<void> clearData() async {
+    await repo.clearData();
+    emit(SavingsState(
+      compA: 0,
+      compB: 0,
+      savingsHistory: [],
+      withdrawals: [],
+    ));
+  }
 }

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'domain/repo/saving_repo.dart';
-import 'features/history_screen.dart';
+import 'features/history/history_screen.dart';
 import 'features/savings/bloc/savings_cubit.dart';
 import 'features/savings/saving_manager.dart';
-import 'features/savings/savings_entry_screen.dart';
-import 'features/savings/withdrawal_screen.dart';
+import 'features/savings/widgets/savings_entry_screen.dart';
+import 'features/savings/widgets/withdrawal_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
